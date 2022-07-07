@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="light-mode.css" id="theme">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	<title>Front-End Developer</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="home">
+			<div class="container">
+				<header class="header">
+					<nav class="navbar navbar-expand-lg navbar-light ">
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse " id="navbarSupportedContent">
+							<ul class="navbar-nav d-flex justify-content-between">
+								<li class="nav-item ">
+									<a class="nav-link" href="#">Home </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#about-me">About me</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#skills">Skills</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#portfolio">Portfolio</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#contacts">Contacts</a>
+								</li>
+							</ul>
+
+						</div>
+					</nav>
+				</header>
+				<div class="line"></div>
+
+				<div class="top">
+					<div class="text"> <span class="name">Kenan <br> Huseynov</span>
+						<span class="proffession">Front-end Developer <br> Web Developer</span>
+					</div>
+
+					<div class="button">
+						<p class="btn-text" id="btn-text">Dark-Mode</p>
+						<!--<button class="btn-mode" id="themeChalenge">
+							
+						</button>-->
+
+						<div>
+							<input type="checkbox" class="checkbox" id="checkbox" onclick="change">
+							<label for="checkbox" class="label">
+								<i class="fas fa-moon"></i>
+								<i class="fas fa-sun"></i>
+								<div class="ball"></div>
+							</label>
+
+
+						</div>
+
+					</div>
+				</div>
+
+
+				<div class="image">
+					<img class="image-img" src="img/1.jpg" alt="">
+				</div>
+
+				<div class="margin-top"></div>
+
+
+
+
+
+			</div>
+		</div>
+
+		<div class="about-me" id="about-me">
+			<div class="container">
+				<div class="about__header">About me</div>
+				<div class="about__text">
+					<p class="about__text-p1">Hi, I'm Kenan – Front-end Developer.
+						I'm interested in coding and everything connected with it.</p>
+
+					<p class="about__text-p2">I'm studying at courses "Front-end and Web Developing" in IT-Academy.</p>
+
+					<p class="about__text-p3">Ready to implement excellent projects
+						with wonderful people.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="skills" id="skills">
+			<div class="container ">
+
+				<div class="skills__header">Skills</div>
+				<div class="skills__text">I work in such languages programming</div>
+
+				<div class="skills-images">
+					<div class="skils__image">
+						<div class="skills-images__img"><img src="./img/html 1.png" alt=""></div>
+						<div class="skills-images__text">HTML</div>
+					</div>
+					<div class="skils__image">
+						<div class="skills-images__img"><img src="./img/css 1.png" alt=""></div>
+						<div class="skills-images__text">CSS</div>
+					</div>
+					<div class="skils__image">
+						<div class="skills-images__img"><img src="./img/JS 1.png" alt=""></div>
+						<div class="skills-images__text">JavaScript</div>
+					</div>
+
+
+
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+		<div class="portfolio" id="portfolio">
+			<div class="container">
+				<div class="portfolio__header">Portfolio</div>
+				<div class="portfolio__img"><img src="./img/Wine_landing.png" class="d-block w-100" alt="..."></div>
+				<div class="works__text">
+					<a target="blank" class="works__text-link" href="https://guseynoov.github.io/Landing-page/">Wine Landing
+						Page</a>
+				</div>
+				<br>
+
+				<div class="portfolio__img"> <img src="./img/arxitekturniy-sayt.png" class="d-block w-100" alt="..."></div>
+				<div class="works__text">
+					<a target="blank" class="works__text-link"
+						href="https://guseynoov.github.io/Architectural-site/">Architectural Web-Site</a>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+	<div class="contacts" id="contacts">
+		<div class="container">
+			<div class="contact__header">Contacts</div>
+			<div class="contact__text">
+				<p class="contact__text-p1">Want to know more or just chat? </p>
+				<p class="contact__text-p2">You are welcome!</p>
+			</div>
+			<a class="contact__mesage" download="CV" href="./Kanan Huseynov CV.docx">Downloand CV</a>
+
+			<div class="contact__social">
+				<div class="insta">
+					<a href="https://www.instagram.com/huseynoofh__/" target="blank"> <i class="fa-brands fa-instagram"
+							style="font-size: 40px;""></i></a>
+						</div>
+						<div class=" telegram">
+							<a href="https://t.me/Huseynoofhh"><i class="fa-brands fa-telegram"
+									style="font-size: 40px;"></i></a>
+				</div>
+			</div>
+
+			<div class="footer__text">We will help you make a unique website!</div>
+
+
+
+
+
+		</div>
+
+
+	</div>
+
+
+
+	</div>
+
+
+
+
+
+	<script src="./js/script.js"></script>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

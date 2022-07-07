@@ -1,0 +1,33 @@
+
+body{
+	background-color: #fff;
+}
+*{
+	
+	color: #000 !important;
+
+}
+
+
+.about-me{
+	background-color: #F6F6F6 !important;
+}
+.portfolio {
+	background-color: #F6F6F6 !important;
+}
+.contact__mesage {
+	font-size: 18px;
+line-height: 22px;
+color: #FFFFFF !important;
+background-color: #000;
+padding: 13px 28px;
+border-radius: 35px;
+
+}
+
+
+.btn-mode{
+	background: url('img/black-btn.png') left ;
+	background-repeat: no-repeat;
+	background-position: cover;
+}

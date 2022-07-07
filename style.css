@@ -1,0 +1,288 @@
+
+
+
+
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	
+}
+.list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.links {
+color: #828282;
+opacity: 0.7;
+
+}
+.links:hover{
+	text-decoration: none;
+	opacity: 1;
+	
+}
+
+.about {
+	
+	white-space: nowrap;
+
+}
+
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}
+.line {
+	margin: 0px 0 35px 0;
+	border: 1px solid #828282;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	background-color: #828282;
+}
+@media (max-width: 991px) {
+	.line {opacity: 0;}
+	.text {flex-direction: column;
+		display: flex;
+		align-items: flex-start;
+		justify-content: start;}
+		.btn-text{display: none;}
+		.skills-images{
+			flex-direction: column;
+			flex-wrap: wrap;}
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text {
+	display: flex;
+}
+.name {
+	
+font-style: normal;
+font-weight: bold;
+	font-size: 47.3392px;
+	line-height: 57px;
+	
+	padding-right: 57px;
+}
+.proffession {
+	display: flex;
+	align-items: flex-end;
+	justify-content: end;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+}
+
+.btn-text{
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+
+}
+.image{
+	margin-top: 30px;
+}
+.image-img {
+	width: 100%;
+}
+.margin-top {
+	height: 104px;
+}
+.about__header {
+	font-weight: 700;
+	padding: 80px 0 25px ;
+	text-align: center;
+font-size: 34px;
+line-height: 42px;
+}
+.about__text {
+	text-align: center;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+padding-bottom: 107px;
+}
+.about__text-p1 {
+	padding-bottom: 20px;
+}
+.about__text-p2 {
+	padding-bottom: 20px;
+}
+.works__text-link{
+	display: inline-block;
+	padding-bottom: 70px;
+}
+
+.skills__header {
+
+	font-weight: 700;
+	padding-top: 91px;
+	text-align: center;
+	font-size: 34px;
+line-height: 42px;
+padding-bottom: 15px;
+}
+.skills__text {
+	text-align: center;
+}
+.skills-images {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+}
+.skills-images
+.skils__image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 220px;
+}
+
+.skills-images__img{
+	height: 154px;
+	width: 138px;
+}
+
+.portfolio__header {
+
+	font-weight: 700;
+padding: 80px 0 47px;
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+
+}
+.portfolio__img{
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+.works__text {
+	padding-top: 47px ;
+	text-align: center;
+}
+.works__text-link{
+
+	font-size: 18px;
+	line-height: 22px;
+	
+	text-decoration-line: underline;
+	color: #070707;
+}
+
+.contacts {
+	text-align: center;
+}
+
+.contact__header {
+	
+	font-weight: 700;
+	padding-top: 114px;
+	font-size: 34px;
+line-height: 42px;
+text-align: center;
+
+
+}
+.contact__text {
+	font-weight: 600;
+	padding: 20px 0 91px;
+
+}
+
+.contact__mesage{
+	text-decoration: none;
+}
+
+
+.contact__mesage:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.contact__social {
+	padding: 80px 0; 
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.insta {
+	padding-right: 40px;
+	
+}
+.footer__text {
+	width: 243px;
+	margin: 0 auto;
+	font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #828282;
+padding-bottom: 100px;
+}
+.btn-mode{
+	border: none;
+	background-color: transparent	;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 50px;
+	height: 26px;
+	width: 50px;
+	padding: 5px;
+	position: relative;
+}
+
+.fa-moon {
+	color: #f1c40f !important;
+}
+.fa-sun {
+	color: #f39c12 !important;
+}
+.ball {
+	width: 22px;
+	height: 22px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	transition: all 0.2s linear;
+}
+.checkbox:checked + .label .ball{
+	transform: translateX(24px);
+}
+
+
